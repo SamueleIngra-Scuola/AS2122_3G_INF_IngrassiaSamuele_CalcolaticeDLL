@@ -1,7 +1,7 @@
 ﻿
 namespace AS2122_3G_INF_IngrassiaSamuele_CalcolaticeDLL
 {
-    partial class Form1
+    partial class frmMain
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,13 +29,119 @@ namespace AS2122_3G_INF_IngrassiaSamuele_CalcolaticeDLL
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.lblOperando1 = new System.Windows.Forms.Label();
+            this.lblOperando2 = new System.Windows.Forms.Label();
+            this.lblOperatore = new System.Windows.Forms.Label();
+            this.txtOperando1 = new System.Windows.Forms.TextBox();
+            this.txtOperando2 = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.lblVisualRisultato = new System.Windows.Forms.Label();
+            this.lblRisultato = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // lblOperando1
+            // 
+            this.lblOperando1.AutoSize = true;
+            this.lblOperando1.Location = new System.Drawing.Point(51, 55);
+            this.lblOperando1.Name = "lblOperando1";
+            this.lblOperando1.Size = new System.Drawing.Size(72, 15);
+            this.lblOperando1.TabIndex = 0;
+            this.lblOperando1.Text = "Operando 1:";
+            // 
+            // lblOperando2
+            // 
+            this.lblOperando2.AutoSize = true;
+            this.lblOperando2.Location = new System.Drawing.Point(51, 101);
+            this.lblOperando2.Name = "lblOperando2";
+            this.lblOperando2.Size = new System.Drawing.Size(72, 15);
+            this.lblOperando2.TabIndex = 1;
+            this.lblOperando2.Text = "Operando 2:";
+            // 
+            // lblOperatore
+            // 
+            this.lblOperatore.AutoSize = true;
+            this.lblOperatore.Location = new System.Drawing.Point(51, 167);
+            this.lblOperatore.Name = "lblOperatore";
+            this.lblOperatore.Size = new System.Drawing.Size(66, 15);
+            this.lblOperatore.TabIndex = 2;
+            this.lblOperatore.Text = "Operatore: ";
+            // 
+            // txtOperando1
+            // 
+            this.txtOperando1.Location = new System.Drawing.Point(139, 52);
+            this.txtOperando1.Name = "txtOperando1";
+            this.txtOperando1.Size = new System.Drawing.Size(145, 23);
+            this.txtOperando1.TabIndex = 3;
+            // 
+            // txtOperando2
+            // 
+            this.txtOperando2.Location = new System.Drawing.Point(139, 98);
+            this.txtOperando2.Name = "txtOperando2";
+            this.txtOperando2.Size = new System.Drawing.Size(145, 23);
+            this.txtOperando2.TabIndex = 4;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "+",
+            "-",
+            "*",
+            "/"});
+            this.comboBox1.Location = new System.Drawing.Point(139, 164);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(57, 23);
+            this.comboBox1.TabIndex = 5;
+            this.comboBox1.Text = "+";
+            // 
+            // lblVisualRisultato
+            // 
+            this.lblVisualRisultato.AutoSize = true;
+            this.lblVisualRisultato.Location = new System.Drawing.Point(51, 271);
+            this.lblVisualRisultato.Name = "lblVisualRisultato";
+            this.lblVisualRisultato.Size = new System.Drawing.Size(59, 15);
+            this.lblVisualRisultato.TabIndex = 6;
+            this.lblVisualRisultato.Text = "Risultato: ";
+            // 
+            // lblRisultato
+            // 
+            this.lblRisultato.AutoSize = true;
+            this.lblRisultato.Location = new System.Drawing.Point(139, 271);
+            this.lblRisultato.Name = "lblRisultato";
+            this.lblRisultato.Size = new System.Drawing.Size(0, 15);
+            this.lblRisultato.TabIndex = 7;
+            // 
+            // frmMain
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(514, 450);
+            this.Controls.Add(this.lblRisultato);
+            this.Controls.Add(this.lblVisualRisultato);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.txtOperando2);
+            this.Controls.Add(this.txtOperando1);
+            this.Controls.Add(this.lblOperatore);
+            this.Controls.Add(this.lblOperando2);
+            this.Controls.Add(this.lblOperando1);
+            this.Name = "frmMain";
+            this.Text = "Ingrassia Samuele | Lab 2.3 | 3G | INF ! 30/03/2022 | Calcolatore con logica su D" +
+    "LL separato";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label lblOperando1;
+        private System.Windows.Forms.Label lblOperando2;
+        private System.Windows.Forms.Label lblOperatore;
+        private System.Windows.Forms.TextBox txtOperando1;
+        private System.Windows.Forms.TextBox txtOperando2;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label lblVisualRisultato;
+        private System.Windows.Forms.Label lblRisultato;
     }
 }
 
