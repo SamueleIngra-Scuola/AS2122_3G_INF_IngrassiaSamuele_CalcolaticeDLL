@@ -37,6 +37,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_CalcolaticeDLL
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.lblVisualRisultato = new System.Windows.Forms.Label();
             this.lblRisultato = new System.Windows.Forms.Label();
+            this.btnCalcola = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblOperando1
@@ -97,7 +98,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_CalcolaticeDLL
             // lblVisualRisultato
             // 
             this.lblVisualRisultato.AutoSize = true;
-            this.lblVisualRisultato.Location = new System.Drawing.Point(51, 271);
+            this.lblVisualRisultato.Location = new System.Drawing.Point(203, 287);
             this.lblVisualRisultato.Name = "lblVisualRisultato";
             this.lblVisualRisultato.Size = new System.Drawing.Size(59, 15);
             this.lblVisualRisultato.TabIndex = 6;
@@ -106,16 +107,26 @@ namespace AS2122_3G_INF_IngrassiaSamuele_CalcolaticeDLL
             // lblRisultato
             // 
             this.lblRisultato.AutoSize = true;
-            this.lblRisultato.Location = new System.Drawing.Point(139, 271);
+            this.lblRisultato.Location = new System.Drawing.Point(291, 287);
             this.lblRisultato.Name = "lblRisultato";
             this.lblRisultato.Size = new System.Drawing.Size(0, 15);
             this.lblRisultato.TabIndex = 7;
+            // 
+            // btnCalcola
+            // 
+            this.btnCalcola.Location = new System.Drawing.Point(51, 229);
+            this.btnCalcola.Name = "btnCalcola";
+            this.btnCalcola.Size = new System.Drawing.Size(94, 73);
+            this.btnCalcola.TabIndex = 8;
+            this.btnCalcola.Text = "Calcola";
+            this.btnCalcola.UseVisualStyleBackColor = true;
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(514, 450);
+            this.ClientSize = new System.Drawing.Size(422, 332);
+            this.Controls.Add(this.btnCalcola);
             this.Controls.Add(this.lblRisultato);
             this.Controls.Add(this.lblVisualRisultato);
             this.Controls.Add(this.comboBox1);
@@ -142,6 +153,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_CalcolaticeDLL
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label lblVisualRisultato;
         private System.Windows.Forms.Label lblRisultato;
+        private System.Windows.Forms.Button btnCalcola;
     }
 }
 
