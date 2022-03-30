@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AS2122_3G_INF_IngraSamuele_CalcolatriceDLL.Library;
+
 
 namespace AS2122_3G_INF_IngrassiaSamuele_CalcolaticeDLL
 {
@@ -17,5 +19,9 @@ namespace AS2122_3G_INF_IngrassiaSamuele_CalcolaticeDLL
             InitializeComponent();
         }
 
+        private void btnCalcola_Click(object sender, EventArgs e)
+        {
+            Operazioni o = new Operazioni();
+        }
     }
 }

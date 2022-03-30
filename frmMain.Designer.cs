@@ -87,8 +87,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_CalcolaticeDLL
             this.comboBox1.Items.AddRange(new object[] {
             "+",
             "-",
-            "*",
-            "/"});
+            "*"});
             this.comboBox1.Location = new System.Drawing.Point(139, 164);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(57, 23);
@@ -120,6 +119,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_CalcolaticeDLL
             this.btnCalcola.TabIndex = 8;
             this.btnCalcola.Text = "Calcola";
             this.btnCalcola.UseVisualStyleBackColor = true;
+            this.btnCalcola.Click += new System.EventHandler(this.btnCalcola_Click);
             // 
             // frmMain
             // 
