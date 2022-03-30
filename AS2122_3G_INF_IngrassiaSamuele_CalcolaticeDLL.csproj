@@ -6,4 +6,14 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="AS2122_3G_INF_IngraSamuele_CalcolatriceDLL.Library\**" />
+    <EmbeddedResource Remove="AS2122_3G_INF_IngraSamuele_CalcolatriceDLL.Library\**" />
+    <None Remove="AS2122_3G_INF_IngraSamuele_CalcolatriceDLL.Library\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="AS2122_3G_INF_IngraSamuele_CalcolatriceDLL.Library\AS2122_3G_INF_IngraSamuele_CalcolatriceDLL.Library.csproj" />
+  </ItemGroup>
+
 </Project>
