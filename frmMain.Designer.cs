@@ -34,7 +34,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_CalcolaticeDLL
             this.lblOperatore = new System.Windows.Forms.Label();
             this.txtOperando1 = new System.Windows.Forms.TextBox();
             this.txtOperando2 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbOperatore = new System.Windows.Forms.ComboBox();
             this.lblVisualRisultato = new System.Windows.Forms.Label();
             this.lblRisultato = new System.Windows.Forms.Label();
             this.btnCalcola = new System.Windows.Forms.Button();
@@ -81,18 +81,18 @@ namespace AS2122_3G_INF_IngrassiaSamuele_CalcolaticeDLL
             this.txtOperando2.Size = new System.Drawing.Size(145, 23);
             this.txtOperando2.TabIndex = 4;
             // 
-            // comboBox1
+            // cmbOperatore
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cmbOperatore.FormattingEnabled = true;
+            this.cmbOperatore.Items.AddRange(new object[] {
             "+",
             "-",
             "*"});
-            this.comboBox1.Location = new System.Drawing.Point(139, 164);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(57, 23);
-            this.comboBox1.TabIndex = 5;
-            this.comboBox1.Text = "+";
+            this.cmbOperatore.Location = new System.Drawing.Point(139, 164);
+            this.cmbOperatore.Name = "cmbOperatore";
+            this.cmbOperatore.Size = new System.Drawing.Size(57, 23);
+            this.cmbOperatore.TabIndex = 5;
+            this.cmbOperatore.Text = "+";
             // 
             // lblVisualRisultato
             // 
@@ -129,7 +129,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_CalcolaticeDLL
             this.Controls.Add(this.btnCalcola);
             this.Controls.Add(this.lblRisultato);
             this.Controls.Add(this.lblVisualRisultato);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cmbOperatore);
             this.Controls.Add(this.txtOperando2);
             this.Controls.Add(this.txtOperando1);
             this.Controls.Add(this.lblOperatore);
@@ -150,7 +150,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_CalcolaticeDLL
         private System.Windows.Forms.Label lblOperatore;
         private System.Windows.Forms.TextBox txtOperando1;
         private System.Windows.Forms.TextBox txtOperando2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbOperatore;
         private System.Windows.Forms.Label lblVisualRisultato;
         private System.Windows.Forms.Label lblRisultato;
         private System.Windows.Forms.Button btnCalcola;
