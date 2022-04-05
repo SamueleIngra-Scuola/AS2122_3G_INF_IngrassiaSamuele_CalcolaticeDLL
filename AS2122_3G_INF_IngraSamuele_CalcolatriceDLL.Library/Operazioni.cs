@@ -48,5 +48,21 @@ namespace AS2122_3G_INF_IngraSamuele_CalcolatriceDLL.Library
             return operando1 / operando2;
         }
 
+        /// <summary>
+        /// Ritorna la divisione fra due operandi
+        /// </summary>
+        /// <param name="numero"></param>
+        /// <returns></returns>
+        public int Fattoriale(int numero)
+        {
+            int risultato = 1;
+
+            for (int i = numero; i >= 1; i--)
+                risultato = risultato * i;
+
+            return risultato;
+        }
+        
+
     }
 }

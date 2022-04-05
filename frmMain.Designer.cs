@@ -88,7 +88,8 @@ namespace AS2122_3G_INF_IngrassiaSamuele_CalcolaticeDLL
             "+",
             "-",
             "*",
-            "/"});
+            "/",
+            "!"});
             this.cmbOperatore.Location = new System.Drawing.Point(139, 164);
             this.cmbOperatore.Name = "cmbOperatore";
             this.cmbOperatore.Size = new System.Drawing.Size(57, 23);
@@ -98,7 +99,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_CalcolaticeDLL
             // lblVisualRisultato
             // 
             this.lblVisualRisultato.AutoSize = true;
-            this.lblVisualRisultato.Location = new System.Drawing.Point(203, 287);
+            this.lblVisualRisultato.Location = new System.Drawing.Point(202, 287);
             this.lblVisualRisultato.Name = "lblVisualRisultato";
             this.lblVisualRisultato.Size = new System.Drawing.Size(59, 15);
             this.lblVisualRisultato.TabIndex = 6;
@@ -107,7 +108,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_CalcolaticeDLL
             // lblRisultato
             // 
             this.lblRisultato.AutoSize = true;
-            this.lblRisultato.Location = new System.Drawing.Point(291, 287);
+            this.lblRisultato.Location = new System.Drawing.Point(290, 287);
             this.lblRisultato.Name = "lblRisultato";
             this.lblRisultato.Size = new System.Drawing.Size(0, 15);
             this.lblRisultato.TabIndex = 7;

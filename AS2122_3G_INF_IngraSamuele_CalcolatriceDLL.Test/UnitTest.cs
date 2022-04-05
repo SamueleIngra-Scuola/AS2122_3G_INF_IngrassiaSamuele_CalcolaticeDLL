@@ -45,6 +45,13 @@ namespace AS2122_3G_INF_IngraSamuele_CalcolatriceDLL.Test
             Assert.IsTrue(o.Divisione(3, 1) == 3);
             Assert.IsTrue(o.Divisione(6, 6) == 1);
         }
+
+        [Test]
+        public void TestFattoriale()
+        {
+            Assert.IsTrue(o.Fattoriale(5) == 120);
+            Assert.IsTrue(o.Fattoriale(3) == 6);
+        }
     }
 }
 }
