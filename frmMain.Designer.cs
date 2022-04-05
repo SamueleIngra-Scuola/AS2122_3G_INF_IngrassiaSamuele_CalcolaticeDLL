@@ -87,7 +87,8 @@ namespace AS2122_3G_INF_IngrassiaSamuele_CalcolaticeDLL
             this.cmbOperatore.Items.AddRange(new object[] {
             "+",
             "-",
-            "*"});
+            "*",
+            "/"});
             this.cmbOperatore.Location = new System.Drawing.Point(139, 164);
             this.cmbOperatore.Name = "cmbOperatore";
             this.cmbOperatore.Size = new System.Drawing.Size(57, 23);

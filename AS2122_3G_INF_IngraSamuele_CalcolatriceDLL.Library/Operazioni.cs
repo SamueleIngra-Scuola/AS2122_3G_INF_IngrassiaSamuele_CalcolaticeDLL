@@ -37,5 +37,16 @@ namespace AS2122_3G_INF_IngraSamuele_CalcolatriceDLL.Library
             return operando1 * operando2;
         }
 
+        /// <summary>
+        /// Ritorna la divisione fra due operandi
+        /// </summary>
+        /// <param name="operando1"></param>
+        /// <param name="operando2"></param>
+        /// <returns></returns>
+        public int Divisione(int operando1, int operando2)
+        {
+            return operando1 / operando2;
+        }
+
     }
 }

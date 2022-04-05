@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+﻿using AS2122_3G_INF_IngraSamuele_CalcolatriceDLL.Library;
+using System;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using AS2122_3G_INF_IngraSamuele_CalcolatriceDLL.Library;
 
 
 namespace AS2122_3G_INF_IngrassiaSamuele_CalcolaticeDLL
@@ -34,6 +28,9 @@ namespace AS2122_3G_INF_IngrassiaSamuele_CalcolaticeDLL
                         break;
                     case "*":
                         risultato = o.Moltiplicazione(Convert.ToInt32(txtOperando1.Text), Convert.ToInt32(txtOperando2.Text));
+                        break;
+                    case "/":
+                        risultato = o.Divisione(Convert.ToInt32(txtOperando1.Text), Convert.ToInt32(txtOperando2.Text));
                         break;
                 }
 

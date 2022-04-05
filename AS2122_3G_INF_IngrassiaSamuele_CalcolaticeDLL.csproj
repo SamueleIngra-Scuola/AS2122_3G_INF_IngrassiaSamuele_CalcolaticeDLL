@@ -8,8 +8,11 @@
 
   <ItemGroup>
     <Compile Remove="AS2122_3G_INF_IngraSamuele_CalcolatriceDLL.Library\**" />
+    <Compile Remove="AS2122_3G_INF_IngraSamuele_CalcolatriceDLL.Test\**" />
     <EmbeddedResource Remove="AS2122_3G_INF_IngraSamuele_CalcolatriceDLL.Library\**" />
+    <EmbeddedResource Remove="AS2122_3G_INF_IngraSamuele_CalcolatriceDLL.Test\**" />
     <None Remove="AS2122_3G_INF_IngraSamuele_CalcolatriceDLL.Library\**" />
+    <None Remove="AS2122_3G_INF_IngraSamuele_CalcolatriceDLL.Test\**" />
   </ItemGroup>
 
   <ItemGroup>

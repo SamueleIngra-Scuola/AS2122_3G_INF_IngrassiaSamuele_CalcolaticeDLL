@@ -13,4 +13,8 @@
     <PackageReference Include="coverlet.collector" Version="3.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AS2122_3G_INF_IngraSamuele_CalcolatriceDLL.Library\AS2122_3G_INF_IngraSamuele_CalcolatriceDLL.Library.csproj" />
+  </ItemGroup>
+
 </Project>
